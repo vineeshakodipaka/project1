@@ -1,0 +1,101 @@
+ /* update-button ;back-button */
+ .head-form{
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    font-size: 40px !important;
+    color: #000000 !important;
+ }
+ .complete-button,.process-button  {
+    background-color:#044EAF !important;
+    color: white !important;
+    width: 152px !important;
+    height:  44px !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    border-radius: 20px !important;
+    
+  }
+  
+  .process-button {
+    color: #000000 !important;
+    background-color: #EEF1F6 !important;
+  }
+  .next-button{
+background: #044EAF !important;
+border-radius: 10px !important;
+width: 178px !important;
+height: 59px !important;
+font-family: 'Poppins',sans-serif !important;
+font-weight: 700 !important;
+font-size: 24px !important;
+color: #FFFFFF !important;
+  }
+  .orderrow{
+    color:#FFFFFF;
+    
+    margin-top:10px;
+    background: #000000;
+    border: 2px solid #C7F2AB;
+    border-radius: 80px;
+  }
+  .row{
+    margin-top: 40px !important;
+  }
+  .happymeals{
+    font-weight: 400;
+    font-size: 28px;
+  }
+  .orders,.dates{
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .rsbtn{
+    border-radius: 10px !important;
+    border:2px solid #828282 !important;
+    background: #FFFFFF !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+  }
+  .divider {
+    border-left: 1px solid white;
+    height: 50%;
+  }
+  
+  @media (max-width: 768px){
+    .head-form{
+        text-align: center;
+        display: block;
+    }
+    .foodimg{
+      height: 50px;
+      width: 50px;
+    }
+    .orderrow{
+        color:#FFFFFF;
+        width:100%;
+        height: 150px;
+        margin-top:10px;
+        background: #000000;
+        border: 2px solid #C7F2AB;
+        border-radius: 80px;
+      }
+ 
+      .orders,.happymeals{
+        font-weight: 400;
+        font-size: 18px;
+      }
+      .dates{
+        font-weight: 400;
+        font-size: 12px;
+      }
+  }
+  @media only screen and (min-width: 1200px){
+.orderrow{
+  width:790px;
+    height: 148px;
+}
+  }
+
+
+  

@@ -1,0 +1,266 @@
+body {
+    overflow: scroll;
+    height: 100vh;
+}
+
+
+
+
+body::-webkit-scrollbar {
+    overflow: hidden;
+}
+/* upper nav */
+.interface-uppernav {
+    height: 5vh;
+    background-color: black;
+    color: #fff;
+}
+.interface{
+    overflow: hidden;
+}
+.MuiTypography-root {
+    margin-top: 26px !important;
+}
+/* heading */
+.account-settings-heading {
+    font-family: 'Comfortaa', sans-serif  !important;
+    font-weight: 300 !important;
+    font-size: 33px !important;
+    top: 25px !important;
+    text-transform:uppercase !important;
+    color: #000000 !important;
+  }
+/* buttons  */
+.custom-button {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: rgb(2, 2, 5) !important;
+    background: #FFFFFF !important;
+    border-radius: 20px !important;
+    width: 250px !important;
+    height: 62px !important;
+  }
+  
+  .custom-button:hover {
+    background-color: transparent !important;
+    color:#044EAF !important;
+    background: #DDECFF !important;
+   border: 2px solid #044EAF !important;
+    
+  }
+  #btn2{
+    background-color: transparent !important;
+    color:#044EAF !important;
+    background: #DDECFF !important;
+   border: 2px solid #044EAF !important;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .interface-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .interface-uppernav,
+    .interface-lowernav {
+      display: none !important;
+    }
+    .account-settings-heading{
+        font-family: 'Lato', sans-serif !important;
+       font-style: normal !important;
+       font-weight: 700 !important;
+       font-size: 20px !important;
+       text-transform:capitalize !important;
+    }
+    .Card{
+        background:none !important;
+        border: none !important;
+        box-shadow: none !important;
+        width: 100% !important;
+        height: auto !important;
+    
+    }
+    
+    .custom-button{
+        border-radius: 20px !important;
+        width: 106px !important;
+        height: 38px !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        border: 2px solid black !important;
+    }
+    .button{
+        
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 10px !important;
+      flex-direction: row !important;
+            display: flex !important;
+            flex-wrap: wrap !important;
+       left: 0px !important;
+    
+      }
+
+      #btn3{
+        margin: 28px;
+      }
+      .text,.img2{
+        display: none;
+      }
+      .col2{
+        position: relative;
+        top:10px;
+      }
+      
+  }
+
+ .logout-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 5px;
+    top: 78px;
+    left: 130px;
+  }
+  
+  .img2 {
+    margin-right: 5px;
+  }
+  
+  .text {
+    color: #454545;
+    font-weight: 700;
+  font-size: 17px;
+    margin-bottom: 5px;
+  }
+  .button {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 50px;
+    left: 52px;
+  position: relative;
+  }
+  .circle-image {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    border-radius: 50%;
+    border: 1px solid #309CFF;
+    cursor: pointer;
+    object-fit: cover;
+    
+  }
+  
+  .interface-content {
+    display: flex;
+    flex-direction: column;
+  }
+  /* nest hub and ipad air */
+  @media only screen and (min-width: 768px) {
+    .interface-content {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .Card {
+      margin-right: 20px;
+      height: 175vh ;
+    }
+  }
+  /* nest hub specific styles */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .Card {
+    margin-right: 20px;
+    height: 90vh; /* Adjust the desired height for Nest Hub */
+  }
+}
+
+
+ 
+/* iPad Mini specific styles */
+@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+
+  .text, .img2 {
+    display: block;
+    margin-bottom: 56px ;
+  }
+  .form-container {
+  
+    margin-left: 0px
+  }
+  .Card{
+    width: 50% !important;
+    background: #E4E8E9 !important;
+    height: 105vh !important;
+  }
+  .interface-uppernav,
+  .interface-lowernav {
+    display: block !important; 
+  }
+    
+  .custom-button {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: rgb(2, 2, 5) !important;
+    background: #FFFFFF !important;
+    border-radius: 20px !important;
+    width: 250px !important;
+    height: 62px !important;
+    margin-bottom: 30px !important;
+  }
+#btn3{
+  margin-top: 10px;
+}
+}
+
+
+
+
+/* Surface Duo specific styles */
+@media screen and (min-width: 540px) and (max-width: 720px) and (orientation: portrait) {
+  .button{
+        
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+  flex-direction: row !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+   left: 0px !important;
+
+  }
+
+  #btn3{
+    margin: 86px;
+    margin-top: 14px;
+    
+    margin-bottom: 31px;
+  }
+  .Card{
+    height: auto !important;
+  }
+}
+/* for desktop */
+@media only screen and (min-width: 1200px){
+.Card{
+  width: 400px !important;
+  height: 132vh  !important;
+}
+.form-container {
+  margin-left: 100px;
+}
+}
+/* CSS styles specific to ipad air screen */
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)  {
+  
+
+  .Card{
+    width: 400px !important;
+    height: 103vh  !important;
+  }
+} */
+
+
+
