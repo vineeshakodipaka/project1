@@ -3,9 +3,6 @@ body {
     height: 100vh;
 }
 
-
-
-
 body::-webkit-scrollbar {
     overflow: hidden;
 }
@@ -48,7 +45,7 @@ body::-webkit-scrollbar {
    border: 2px solid #044EAF !important;
     
   }
-  #btn2{
+  #btn1{
     background-color: transparent !important;
     color:#044EAF !important;
     background: #DDECFF !important;
@@ -166,18 +163,21 @@ body::-webkit-scrollbar {
   
     .Card {
       margin-right: 20px;
-      height: 175vh ;
+      height: 145vh ;
     }
   }
-  /* nest hub specific styles */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .Card {
-    margin-right: 20px;
-    height: 90vh; /* Adjust the desired height for Nest Hub */
+  /* mobile phone screen. */
+ /* @media only screen and (max-width: 540px) and (orientation: portrait) {
+    .interface-content {
+      flex-direction: column;
+    }
+  
+    .Card {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
   }
-}
-
-
+ */
  
 /* iPad Mini specific styles */
 @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
@@ -193,7 +193,7 @@ body::-webkit-scrollbar {
   .Card{
     width: 50% !important;
     background: #E4E8E9 !important;
-    height: 105vh !important;
+    height: 70vh !important;
   }
   .interface-uppernav,
   .interface-lowernav {
@@ -246,21 +246,21 @@ body::-webkit-scrollbar {
 @media only screen and (min-width: 1200px){
 .Card{
   width: 400px !important;
-  height: 132vh  !important;
+  height: 110vh !important;
 }
 .form-container {
   margin-left: 100px;
 }
 }
-/* CSS styles specific to ipad air screen */
-/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)  {
-  
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)  {
+  /* CSS styles specific to ipad air screen */
 
   .Card{
     width: 400px !important;
-    height: 103vh  !important;
+    height: 88vh  !important;
   }
-} */
+}
 
 
 
+  

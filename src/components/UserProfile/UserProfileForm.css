@@ -1,0 +1,148 @@
+/* my profile heading */
+.head-form{
+  font-weight: 400 !important;
+  font-size: 24px !important;
+  font-size: 40px !important;
+  color: #000000 !important;
+}
+/* hideDefaultIcon for hiding icon in select option */
+.hideDefaultIcon::-ms-expand {
+    display: none !important;
+  }
+ 
+  .hideDefaultIcon::after {
+    display: none !important;
+  }
+  .hideDefaultIcon {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    background-image: none !important;
+  }
+  /* form-control */
+  .form-control{
+    background-color: #E4E8E9 !important;
+ }
+ .input-field::placeholder{
+   color: #525252;
+   font-weight: 400;
+   font-size: 20px;
+ }
+
+
+/* form labels */
+.labels{
+ font-weight: 500;
+font-size: 20px;
+text-transform: uppercase;
+color: #000000 !important;
+  }
+  /* update-button ,back-button */
+  .update-button {
+    background-color: #24B35D !important;
+    color: white !important;
+    width: 178px !important;
+    height: 59px !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+  }
+  
+  .back-button {
+    color: red !important;
+    border: 1px solid red !important;
+    width: 178px !important;
+    height: 59px !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+  }
+
+  .input-field, #inputProfession ,#inputState,#inputwork,#inputgender,#inputAddress{
+    background-color: #E4E8E9;
+    color: #525252 ;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  #inputAddress{
+    
+    height: 100px;
+    background-color: "#E4E8E9";
+   
+  }
+  /* .custom-default-value for date input*/
+  .custom-default-value{
+    background-color: #E4E8E9 !important;
+    color: #525252 !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+  }
+
+  @media (max-width: 768px){
+    .head-form{
+      display: none;
+    }
+
+    .form-control {
+     
+      width: 100%;
+      }
+ #formlabels{
+  font-size: 12px;
+ }
+ .input-field, #inputProfession ,#inputState,#inputwork,#inputgender,#inputAddress{
+  font-size: 12px;
+}
+.input-field::placeholder{
+  font-size: 12px;
+}
+  
+#inputAddress {
+    
+  height: 50px;
+ 
+  display: block;
+}
+.custom-default-value{
+   
+   
+    font-size: 12px !important;
+  }
+
+.update-button ,.back-button {
+  width: 88px !important;
+height: 27px !important;
+border-radius: 10px !important;
+font-weight: 700 !important;
+font-size: 13px !important;
+}
+
+  }
+
+  @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  .form-control {
+     width: 130px;
+    }
+  }
+    
+  .input-field,.form-control{
+    outline: none !important; /* Remove default focus outline */
+    box-shadow:none !important; /* Add box-shadow effect on focus */
+    border: none !important;
+  
+  }
+  .input-field:focus {
+    /* No specific styles for focused input fields */
+  }
+  @media only screen and (min-width: 1024px) and (max-device-width: 1366px) {
+  
+   .form-control{
+    width: 100% !important;
+   }
+  }
+  @media only screen and (min-width: 1200px){
+    .input-field{
+      width:350px !important;
+     }
+   
+  }
+ 

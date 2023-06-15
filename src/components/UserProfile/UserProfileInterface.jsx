@@ -5,8 +5,8 @@ import logo1 from '../../images/Ellipse 2.png'
 import logo2 from '../../images/Vector (2).png'
 import logo3 from '../../images/Handshake Heart.png'
 import { Avatar, Card, CardContent, Typography, Button} from '@material-ui/core'
-
-import Orders from './Orders'
+import UserProfileForm from './UserProfileForm'
+import { ExitToApp } from '@material-ui/icons'
 
 const UserProfileInterface = () => {
   //selecting image
@@ -91,9 +91,9 @@ const UserProfileInterface = () => {
         <Card>
           
         </Card>
-       
+        {/* userprofileform */}
         <div className="form-container">
-          <Orders/>
+          <UserProfileForm />
         </div>
       </div>
 

@@ -1,11 +1,15 @@
-import React from 'react'
-import UserProfileInterface from './components/UserProfile/UserProfileInterface'
-const App = () => {
+import './App.css';
+
+import UserProfileInterface from './components/UserProfile/UserProfileInterface';
+
+function App() {
   return (
-    <div>
-        <UserProfileInterface/>
+    <div className="App">
+
+      <UserProfileInterface />
+      
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
